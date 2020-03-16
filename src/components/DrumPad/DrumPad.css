@@ -13,5 +13,9 @@
 }
 
 .drum-pad p{
-    margin-top: 65px
+    margin-top: 65px;
+}
+
+.active{
+    color: red;
 }

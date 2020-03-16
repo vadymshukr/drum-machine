@@ -1,5 +1,6 @@
 import React from 'react';
 import './DrumPad.css';
+import $ from 'jquery';
 
 class DrumPad extends React.Component{
   constructor(props){
@@ -36,6 +37,13 @@ class DrumPad extends React.Component{
       this.props.displayUpdate(this.props.id);
     }
     
+
+    $( '.drum-pad' ).click(function(){
+      $( this ).addClass('active');
+      setTimeout(function(){
+        $('.drum-pad').removeClass('active');
+      }, 1000)
+    });
   }
   render(){
     return (

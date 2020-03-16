@@ -2,6 +2,7 @@ import React from 'react';
 import './DrumMachine.css';
 import DrumPad from '../DrumPad/DrumPad';
 import Display from '../Display/Display';
+import $ from 'jquery';
 
 const sounds = {
   openhihat: 'https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3',
