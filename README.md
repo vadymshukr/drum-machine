@@ -1,1 +1,1 @@
-This is my implementation of Drum Machine project from freecodecamp
+This is my implementation of Drum Machine project from freecodecamp using React.js

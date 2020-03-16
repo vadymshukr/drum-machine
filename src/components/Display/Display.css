@@ -1,7 +1,9 @@
 .displaySection{
     width: 300px;
-    height: 100px;
+    height: 60px;
     border: 1px solid black;
     text-align: center;
     margin: 15px 0;
+    background-color: #33CC00;
+    border-radius: 10px 10px;
 }

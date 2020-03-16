@@ -7,15 +7,20 @@
 .drum-pad{
     text-align: center;
     margin: 15px;
-    width: 150px;
-    height: 150px;
-    border: 1px solid black
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px 10px;
+    background-color: #333333;
+    box-shadow: inset 0px 0px 15px 5px rgba(0,0,0,0.75);
+    color: white;
 }
 
 .drum-pad p{
-    margin-top: 65px;
+    margin-top: 45px;
 }
 
 .active{
     color: red;
+    box-shadow: none;
 }

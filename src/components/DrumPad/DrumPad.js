@@ -37,13 +37,10 @@ class DrumPad extends React.Component{
       this.props.displayUpdate(this.props.id);
     }
     
-
-    $( '.drum-pad' ).click(function(){
-      $( this ).addClass('active');
+    $( this ).addClass('active');
       setTimeout(function(){
         $('.drum-pad').removeClass('active');
-      }, 1000)
-    });
+      }, 500);
   }
   render(){
     return (

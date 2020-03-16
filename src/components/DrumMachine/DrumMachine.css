@@ -1,5 +1,7 @@
 .drum-machine-section{
-    border: 1px solid black;
     width: 600px;
     margin: 50px auto;
+    border-radius: 10px 10px;
+    background-color: #666666;
+    box-shadow: 0px 0px 12px 10px rgba(0,0,0,0.75);
 }
