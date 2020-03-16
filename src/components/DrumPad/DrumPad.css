@@ -1,0 +1,17 @@
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drum-pad{
+    text-align: center;
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black
+}
+
+.drum-pad p{
+    margin-top: 65px
+}
