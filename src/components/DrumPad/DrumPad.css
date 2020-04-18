@@ -12,8 +12,14 @@
     border: 1px solid black;
     border-radius: 10px 10px;
     background-color: #333333;
-    box-shadow: inset 0px 0px 15px 5px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 5px 1px rgba(24, 24, 24, 0.75);
     color: white;
+    cursor: pointer
+}
+
+.drum-pad:hover{
+    background-color: #494949;
+    box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.5);
 }
 
 .drum-pad p{
